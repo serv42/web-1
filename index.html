@@ -465,7 +465,7 @@
 
                 async fetchDataAndRender() {
                     try {
-                        const response = await fetch('/translations.json');
+                        const response = await fetch('./translations.json');
                         if (!response.ok) throw new Error('Network response was not ok');
                         this.translations = await response.json();
                         this.render();
