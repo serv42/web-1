@@ -334,7 +334,7 @@
                                         <h3 data-key="remoteSupport.downloadTitle" class="text-xl font-bold text-slate-800 mb-2"></h3>
                                         <p data-key="remoteSupport.downloadText" class="text-slate-600 text-sm leading-relaxed mb-6"></p>
                                     </div>
-                                    <a href="/downloads/rustdesk-host=remote.solide.it.com,key=NIiwm8Zk9WwnCYMnSIhJEo7BB0NKhbInRDf7LzXNKj4=.exe" download class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg shadow transition-colors duration-300">
+                                    <a href="downloads/rustdesk-host=remote.solide.it.com,key=NIiwm8Zk9WwnCYMnSIhJEo7BB0NKhbInRDf7LzXNKj4=.exe" download class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg shadow transition-colors duration-300">
                                         <span data-key="remoteSupport.downloadBtn"></span>
                                     </a>
                                 </div>
@@ -779,7 +779,7 @@
                                         <h3 class="text-lg font-bold text-slate-800 mb-1">${rs.downloadTitle}</h3>
                                         <p class="text-slate-600 text-sm leading-relaxed mb-5">${rs.downloadText}</p>
                                     </div>
-                                    <a href="/downloads/rustdesk-host=remote.solide.it.com,key=NIiwm8Zk9WwnCYMnSIhJEo7BB0NKhbInRDf7LzXNKj4=.exe" download class="block w-full text-center bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-lg shadow transition-colors duration-300">${rs.downloadBtn}</a>
+                                    <a href="downloads/rustdesk-host=remote.solide.it.com,key=NIiwm8Zk9WwnCYMnSIhJEo7BB0NKhbInRDf7LzXNKj4=.exe" download class="block w-full text-center bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-lg shadow transition-colors duration-300">${rs.downloadBtn}</a>
                                 </div>
                                 <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 flex flex-col justify-between">
                                     <div>
@@ -871,7 +871,7 @@
                             spinner.classList.remove('hidden');
 
                             try {
-                                const response = await fetch('/api/booking.php', {
+                                const response = await fetch('api/booking.php', {
                                     method: 'POST',
                                     headers: { 'Content-Type': 'application/json' },
                                     body: JSON.stringify(payload)
