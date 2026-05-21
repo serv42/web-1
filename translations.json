@@ -105,21 +105,21 @@
                     "name": "Marcus Diedrich",
                     "role": "CEO",
                     "company": "Innovatech Solution",
-                    "image": "/images/avatars/men-32.jpg"
+                    "image": "images/avatars/men-32.jpg"
                 },
                 {
                     "quote": "Switching to a cloud infrastructure was a big step for us. Solide.IT managed the entire process seamlessly and professionally. Our team's productivity has noticeably increased.",
                     "name": "Emily Clark",
                     "role": "Head of Operations",
                     "company": "Creative Circle Inc.",
-                    "image": "/images/avatars/women-68.jpg"
+                    "image": "images/avatars/women-68.jpg"
                 },
                 {
                     "quote": "Thanks to Solide.IT's strategic consulting, we've reduced our IT costs by 20% while massively increasing security. A partner that truly thinks ahead.",
                     "name": "David Chen",
                     "role": "CFO",
                     "company": "NextGen Logistics",
-                    "image": "/images/avatars/men-46.jpg"
+                    "image": "images/avatars/men-46.jpg"
                 }
             ]
         },
@@ -455,21 +455,21 @@
                     "name": "Markus Diedrich",
                     "role": "Geschäftsführer",
                     "company": "Digitalwandel GmbH",
-                    "image": "/images/avatars/men-32.jpg"
+                    "image": "images/avatars/men-32.jpg"
                 },
                 {
                     "quote": "Die Umstellung auf eine Cloud-Infrastruktur war für uns ein großer Schritt. Solide.IT hat den gesamten Prozess nahtlos und professionell gemanagt. Unsere Team-Produktivität ist spürbar gestiegen.",
                     "name": "Julia Becker",
                     "role": "Head of Operations",
                     "company": "Kreativzirkel AG",
-                    "image": "/images/avatars/women-68.jpg"
+                    "image": "images/avatars/women-68.jpg"
                 },
                 {
                     "quote": "Dank der strategischen Beratung von Solide.IT haben wir unsere IT-Kosten um 20% gesenkt und gleichzeitig die Sicherheit massiv erhöht. Ein Partner, der wirklich mitdenkt.",
                     "name": "Thomas Bauer",
                     "role": "CFO",
                     "company": "NextGen Logistics",
-                    "image": "/images/avatars/men-46.jpg"
+                    "image": "images/avatars/men-46.jpg"
                 }
             ]
         },
