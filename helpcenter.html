@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Support Wizard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome (optional) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+
+    <style>
+        /* ============== HEADER-HINTERGRUND ============== */
+        .oben {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 300px;
+            z-index: -2;
+            background-color: #0074e0;
+            background-image: url('bg.png');
+            /* anpassen oder entfernen */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        /* ============== LAYOUT ============== */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+        }
+
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+            margin-top: 32px;
+            /* damit nichts unter die .oben Grafik rutscht */
+            margin-bottom: 50px;
+        }
+
+        .white-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* ============== KARTEN ============== */
+        .card {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-body {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-title {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #0052cc;
+        }
+
+        .card-text {
+            font-size: 0.875rem;
+            color: #6c757d;
+        }
+
+        .arrow {
+            font-size: 1.25rem;
+            color: #0052cc;
+        }
+
+        .fa-icon {
+            font-size: 1.5rem;
+            margin-right: 10px;
+            color: #0052cc;
+        }
+
+        /* ============== FORM / INPUTS ============== */
+        .form-label {
+            font-weight: bold;
+        }
+
+        .form-control,
+        .form-select {
+            border-radius: 5px;
+        }
+
+        .form-control:focus,
+        .form-select:focus {
+            border: 1px solid #dc3545 !important;
+            /* rote Umrandung bei Fokus */
+            box-shadow: 0 0 4px rgba(220, 53, 69, 0.4) !important;
+        }
+
+        .btn-primary {
+            background-color: #0052cc;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #003d99;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header-Hintergrund -->
+    <div class="oben"></div>
+
+    <div class="content-wrapper">
+        <div class="white-container">
+
+            <!-- =========================================
+         SCHRITT 1: THEMEN-AUSWAHL
+         ========================================= -->
+            <div id="step1">
+                <h1 class="mb-4">Help Center</h1>
+                <p class="fw-semibold">Herzlich willkommen! Bei welchem Thema können wir dir helfen?</p>
+
+                <div class="card" onclick="showStep2('Allgemeine Hilfe')">
+                    <div class="card-body">
+                        <div>
+                            <i class="fas fa-question-circle fa-icon"></i>
+                            <div>
+                                <h5 class="card-title">Allgemeine Hilfe</h5>
+                                <p class="card-text">
+                                    IT-Hilfe (Troubleshooting), neues Konto anfordern,
+                                    Systemproblem melden, defekte Hardware melden.
+                                </p>
+                            </div>
+                        </div>
+                        <span class="arrow">&#8250;</span>
+                    </div>
+                </div>
+
+                <div class="card" onclick="showStep2('Computer')">
+                    <div class="card-body">
+                        <div>
+                            <i class="fas fa-desktop fa-icon"></i>
+                            <div>
+                                <h5 class="card-title">Computer</h5>
+                                <p class="card-text">
+                                    IT-Hilfe (Troubleshooting), defekte Hardware melden,
+                                    neue Hardware anfordern.
+                                </p>
+                            </div>
+                        </div>
+                        <span class="arrow">&#8250;</span>
+                    </div>
+                </div>
+
+                <div class="card" onclick="showStep2('Anmeldungen und Konten')">
+                    <div class="card-body">
+                        <div>
+                            <i class="fas fa-user-lock fa-icon"></i>
+                            <div>
+                                <h5 class="card-title">Anmeldungen und Konten</h5>
+                                <p class="card-text">
+                                    Erhöhte Rechte/Administratorzugriff anfordern,
+                                    neues Konto anlegen, Account für neue Mitarbeitende anfordern.
+                                </p>
+                            </div>
+                        </div>
+                        <span class="arrow">&#8250;</span>
+                    </div>
+                </div>
+
+                <div class="card" onclick="showStep2('Anwendungen')">
+                    <div class="card-body">
+                        <div>
+                            <i class="fas fa-th-large fa-icon"></i>
+                            <div>
+                                <h5 class="card-title">Anwendungen</h5>
+                                <p class="card-text">
+                                    Neue Software anfordern, Systemprobleme melden,
+                                    Updates einspielen, Performance-Probleme melden.
+                                </p>
+                            </div>
+                        </div>
+                        <span class="arrow">&#8250;</span>
+                    </div>
+                </div>
+
+                <div class="card" onclick="showStep2('Server und Infrastruktur')">
+                    <div class="card-body">
+                        <div>
+                            <i class="fas fa-server fa-icon"></i>
+                            <div>
+                                <h5 class="card-title">Server und Infrastruktur</h5>
+                                <p class="card-text">
+                                    Systemproblem melden, defekte Komponente melden.
+                                </p>
+                            </div>
+                        </div>
+                        <span class="arrow">&#8250;</span>
+                    </div>
+                </div>
+
+                <div class="card" onclick="showStep2('Verbesserungsvorschläge')">
+                    <div class="card-body">
+                        <div>
+                            <i class="fas fa-lightbulb fa-icon"></i>
+                            <div>
+                                <h5 class="card-title">Verbesserungsvorschläge</h5>
+                                <p class="card-text">
+                                    IT-Support Feedback, IT-relevante Verbesserungsvorschläge
+                                    einreichen.
+                                </p>
+                            </div>
+                        </div>
+                        <span class="arrow">&#8250;</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Ende Schritt 1 -->
+
+            <!-- =========================================
+         SCHRITT 2: Sub-Themen
+         ========================================= -->
+            <div id="step2" style="display: none;">
+                <h1 class="mb-4">Unterstützung</h1>
+                <p class="fw-semibold">Womit können wir Ihnen helfen?</p>
+                <div id="subTopicsContainer"></div>
+                <div class="text-end">
+                    <button class="btn btn-primary" onclick="resetWizard()">Zurück</button>
+                </div>
+            </div>
+            <!-- Ende Schritt 2 -->
+
+            <!-- =========================================
+         SCHRITT 3: Formular
+         ========================================= -->
+            <div id="step3" style="display: none;">
+                <h1 class="mb-4">Unterstützung - Ticket erstellen</h1>
+                <p>Mit dem ausgewählten Thema kannst du nun eine Supportanfrage stellen.</p>
+
+                <div class="card p-4">
+                    <!-- Formular geht an "sendmail.php" -->
+                    <form id="ticketForm" method="POST" action="api/sendmail.php" enctype="multipart/form-data">
+                        <!-- Hidden-Felder statt disabled -->
+                        <input type="hidden" id="themeHidden" name="theme" value="">
+                        <input type="hidden" id="subThemeHidden" name="subTheme" value="">
+
+                        <!-- Scheinbare Select-Boxen (OHNE name, disabled per default) -->
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <label for="themeSelect" class="form-label mb-0">Thema</label>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="toggleTheme"
+                                        onclick="toggleThemeDisabled()">
+                                    <label class="form-check-label" for="toggleTheme">Thema bearbeiten</label>
+                                </div>
+                            </div>
+                            <select class="form-select" id="themeSelect" disabled>
+                                <option value="">Bitte wählen...</option>
+                                <option value="Allgemeine Hilfe">Allgemeine Hilfe</option>
+                                <option value="Computer">Computer</option>
+                                <option value="Anmeldungen und Konten">Anmeldungen und Konten</option>
+                                <option value="Anwendungen">Anwendungen</option>
+                                <option value="Server und Infrastruktur">Server und Infrastruktur</option>
+                                <option value="Verbesserungsvorschläge">Verbesserungsvorschläge</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <label for="subThemeSelect" class="form-label mb-0">Womit können wir dir helfen?</label>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="toggleSubTheme"
+                                        onclick="toggleSubThemeDisabled()">
+                                    <label class="form-check-label" for="toggleSubTheme">Task bearbeiten</label>
+                                </div>
+                            </div>
+                            <select class="form-select" id="subThemeSelect" disabled>
+                                <option value="">Bitte wählen...</option>
+                            </select>
+                        </div>
+
+                        <p class="text-muted">
+                            Erforderliche Felder sind mit einem Sternchen gekennzeichnet
+                            <span class="text-danger">*</span>
+                        </p>
+
+                        <!-- Beispielliste E-Mail-Adressen (Autocomplete) -->
+                        <div class="mb-4">
+                            <label for="requestName" class="form-label">
+                                Anfrage im Namen des Mitarbeitenden (E-Mail-Adresse)
+                                <span class="text-danger">*</span>
+                            </label>
+                            <input type="email" class="form-control" id="requestName" name="requestName"
+                                placeholder="Name oder E-Mail-Adresse eingeben ..." list="autocompleteUserEmails"
+                                required>
+                            <!-- Datalist (Autocomplete) -->
+                            <datalist id="autocompleteUserEmails"></datalist>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="summary" class="form-label">
+                                Zusammenfassung <span class="text-danger">*</span>
+                            </label>
+                            <input type="text" class="form-control" id="summary" name="summary"
+                                placeholder="Kurze Zusammenfassung der Anfrage" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="description" class="form-label">
+                                Beschreibung <span class="text-danger">*</span>
+                            </label>
+                            <textarea class="form-control" id="description" name="description" rows="5"
+                                placeholder="Beschreibe das Anliegen bitte möglichst genau ..." required></textarea>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="attachment" class="form-label">Anhang</label>
+                            <input type="file" class="form-control" id="attachment" name="attachment">
+                            <small class="text-muted">
+                                Optional: Screenshot, Logs etc.
+                            </small>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <button type="button" class="btn btn-secondary" onclick="backToStep2()">
+                                Zurück
+                            </button>
+                            <button type="submit" class="btn btn-primary">
+                                Senden
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Ende Schritt 3 -->
+        </div>
+    </div>
+
+    <!-- =========================================
+     JavaScript (Wizard-Logik)
+========================================= -->
+    <script>
+        // 1) Liste für Autocomplete
+        const UserEmails = {
+            "Orga_Users": [
+                { "ou_email": "a-user@example.com" },
+                { "ou_email": "b-user@example.com" }
+            ]
+        };
+
+        // 2) DOMContentLoaded -> fülle datalist
+        document.addEventListener("DOMContentLoaded", () => {
+            const dataList = document.getElementById("autocompleteUserEmails");
+            UserEmails.Orga_Users.forEach(userObj => {
+                const option = document.createElement("option");
+                option.value = userObj.ou_email;
+                dataList.appendChild(option);
+            });
+        });
+
+        // 3) Themen + Subthemen
+        let selectedTopic = "";
+        let selectedSubTopic = "";
+
+        const subTopics = {
+            "Allgemeine Hilfe": [
+                {
+                    icon: "fas fa-tools",
+                    title: "IT-Hilfe (Troubleshooting)",
+                    description: "Allgemeine IT-Probleme beheben, Unterstützung anfragen."
+                },
+                {
+                    icon: "fas fa-user-plus",
+                    title: "Neues Konto anfordern",
+                    description: "Beantrage ein neues Benutzerkonto."
+                },
+                {
+                    icon: "fas fa-bug",
+                    title: "Systemproblem melden",
+                    description: "Melde ein Problem mit deinem System."
+                },
+                {
+                    icon: "fas fa-exclamation-triangle",
+                    title: "Defekte Hardware melden",
+                    description: "Melde defekte Geräte (Monitor, Tastatur, etc.)."
+                }
+            ],
+            "Computer": [
+                {
+                    icon: "fas fa-headset",
+                    title: "IT-Hilfe (Troubleshooting)",
+                    description: "Allgemeine Unterstützung bei PC-Problemen."
+                },
+                {
+                    icon: "fas fa-exclamation-circle",
+                    title: "Defekte Hardware melden",
+                    description: "Melde fehlerhafte Computerhardware."
+                },
+                {
+                    icon: "fas fa-plus-square",
+                    title: "Neue Hardware anfordern",
+                    description: "Wenn du z.B. einen neuen Monitor oder eine Maus brauchst."
+                }
+            ],
+            "Anmeldungen und Konten": [
+                {
+                    icon: "fas fa-user-shield",
+                    title: "Erhöhte Rechte/Administratorzugriff",
+                    description: "Beantrage Adminrechte oder erweiterte Berechtigungen."
+                },
+                {
+                    icon: "fas fa-user-plus",
+                    title: "Neues Konto anlegen",
+                    description: "Lege ein komplett neues Benutzerkonto an."
+                },
+                {
+                    icon: "fas fa-user-friends",
+                    title: "Account für neuen Mitarbeitenden",
+                    description: "Beantrage ein Konto für neue Mitarbeiter/innen."
+                }
+            ],
+            "Anwendungen": [
+                {
+                    icon: "fas fa-plus-circle",
+                    title: "Neue Software anfordern",
+                    description: "Beantrage neue Lizenzen oder Anwendungen."
+                },
+                {
+                    icon: "fas fa-bug",
+                    title: "Systemprobleme melden",
+                    description: "Fehlermeldung im Programm oder System einreichen."
+                },
+                {
+                    icon: "fas fa-sync-alt",
+                    title: "Updates einspielen",
+                    description: "Beantrage Updates für eine Anwendung."
+                },
+                {
+                    icon: "fas fa-tachometer-alt",
+                    title: "Performance-Probleme melden",
+                    description: "Melde langsame Reaktionen oder Ladezeiten."
+                }
+            ],
+            "Server und Infrastruktur": [
+                {
+                    icon: "fas fa-bug",
+                    title: "Systemproblem melden",
+                    description: "Melde Probleme mit Servern oder Netzwerkkomponenten."
+                },
+                {
+                    icon: "fas fa-exclamation-triangle",
+                    title: "Defekte Komponente melden",
+                    description: "Z.B. defekte Netzwerkkarte, Router, etc."
+                }
+            ],
+            "Verbesserungsvorschläge": [
+                {
+                    icon: "fas fa-comments",
+                    title: "IT Support Feedback",
+                    description: "Teile uns dein Feedback zum IT-Support mit."
+                },
+                {
+                    icon: "fas fa-lightbulb",
+                    title: "IT-relevante Verbesserungsvorschläge",
+                    description: "Ideen zur Optimierung der IT-Landschaft einreichen."
+                }
+            ]
+        };
+
+        // Schritt1 -> Schritt2
+        function showStep2(topic) {
+            selectedTopic = topic;
+            document.getElementById("step1").style.display = "none";
+            document.getElementById("step2").style.display = "block";
+
+            const container = document.getElementById("subTopicsContainer");
+            container.innerHTML = "";
+
+            if (subTopics[topic]) {
+                subTopics[topic].forEach(item => {
+                    let card = document.createElement("div");
+                    card.className = "card mb-3";
+                    card.onclick = () => showStep3(item.title);
+
+                    card.innerHTML = `
+        <div class="card-body">
+          <div>
+            <i class="${item.icon} fa-icon"></i>
+            <div>
+              <h5 class="card-title">${item.title}</h5>
+              <p class="card-text">${item.description}</p>
+            </div>
+          </div>
+        </div>
+      `;
+                    container.appendChild(card);
+                });
+            }
+        }
+
+        // Schritt2 -> Schritt3
+        function showStep3(subTopic) {
+            selectedSubTopic = subTopic;
+            document.getElementById("step2").style.display = "none";
+            document.getElementById("step3").style.display = "block";
+
+            // Hidden-Felder + Scheinbare Selects
+            document.getElementById("themeHidden").value = selectedTopic;
+            const themeSel = document.getElementById("themeSelect");
+            themeSel.value = selectedTopic;
+
+            document.getElementById("subThemeHidden").value = selectedSubTopic;
+            const subSel = document.getElementById("subThemeSelect");
+            subSel.innerHTML = `<option value="${subTopic}">${subTopic}</option>`;
+            subSel.value = subTopic;
+        }
+
+        // Reset: komplett neu
+        function resetWizard() {
+            selectedTopic = "";
+            selectedSubTopic = "";
+            document.getElementById("step2").style.display = "none";
+            document.getElementById("step3").style.display = "none";
+            document.getElementById("step1").style.display = "block";
+        }
+
+        // Von Schritt 3 zurück zu Schritt 2
+        function backToStep2() {
+            document.getElementById("step3").style.display = "none";
+            document.getElementById("step2").style.display = "block";
+        }
+
+        // Toggle-Felder: Thema / Subthema
+        function toggleThemeDisabled() {
+            const sel = document.getElementById("themeSelect");
+            sel.disabled = !sel.disabled;
+            // wenn der User was ändert:
+            if (!sel.disabled) {
+                sel.addEventListener("change", function onChangeTheme() {
+                    document.getElementById("themeHidden").value = sel.value;
+                    sel.removeEventListener("change", onChangeTheme);
+                });
+            }
+        }
+        function toggleSubThemeDisabled() {
+            const sel = document.getElementById("subThemeSelect");
+            sel.disabled = !sel.disabled;
+            if (!sel.disabled) {
+                sel.addEventListener("change", function onChangeSub() {
+                    document.getElementById("subThemeHidden").value = sel.value;
+                    sel.removeEventListener("change", onChangeSub);
+                });
+            }
+        }
+    </script>
+
+</body>
+
+</html>
