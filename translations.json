@@ -1,0 +1,702 @@
+{
+    "en": {
+        "page": {
+            "title": "Solide.IT | Your IT runs. You relax."
+        },
+        "nav": {
+            "services": "Services",
+            "plans": "Plans",
+            "process": "Process",
+            "contact": "Contact",
+            "bookCall": "Book Free Analysis",
+            "bookCallSubject": "Booking: Free Analysis",
+            "remoteSupport": "Remote Support"
+        },
+        "hero": {
+            "h1": "Stop worrying about IT. Solide.IT has your back.",
+            "h2": "We transform your remote IT from a daily bottleneck into a secure, high-performance engine for your team.",
+            "cta": "Book Your Free IT-Readiness Analysis",
+            "socialProof": "Trusted by leading Tech-Startups and Digital Agencies",
+            "ctaSubject": "Booking: Free IT-Readiness Analysis"
+        },
+        "problem": {
+            "title": "Sound Familiar? Your IT is Holding You Back.",
+            "cards": [
+                {
+                    "title": "Security Gaps",
+                    "text": "Your data is exposed through unsecured home networks and personal devices, making you an easy target for cyberattacks."
+                },
+                {
+                    "title": "Productivity Drains",
+                    "text": "Slow apps, messy file sharing, and constant tech issues frustrate your team and kill productivity."
+                },
+                {
+                    "title": "Unpredictable Costs",
+                    "text": "You're wasting money on the wrong tools and unexpected 'emergency' IT fixes instead of investing in growth."
+                }
+            ]
+        },
+        "process": {
+            "title": "Your 3-Step Path to a World-Class Remote IT.",
+            "steps": [
+                {
+                    "step": "DISCOVER",
+                    "title": "1. Audit & Strategic Roadmap",
+                    "text": "We perform a 360° analysis of your current IT infrastructure, identify every risk and opportunity, and deliver a concrete action plan. No fluff, just clarity."
+                },
+                {
+                    "step": "IMPLEMENT",
+                    "title": "2. Secure & Streamline",
+                    "text": "We execute the plan. This means migrating you to the cloud, deploying modern Zero-Trust security, and setting up collaboration tools your team will actually love to use."
+                },
+                {
+                    "step": "OPTIMIZE",
+                    "title": "3. Proactive Management & Support",
+                    "text": "Your IT is now on autopilot. We provide ongoing monitoring, proactive maintenance, and fast, expert support to keep your systems running flawlessly."
+                }
+            ]
+        },
+        "services": {
+            "title": "Comprehensive IT Solutions for Your Business",
+            "items": [
+                {
+                    "title": "Cloud Service Management",
+                    "description": "We take over the complete management of your cloud services, from configuration to ongoing optimization, so you can focus on your core business."
+                },
+                {
+                    "title": "IT Outsourcing",
+                    "description": "Outsource your entire IT department or specific areas to us. We offer flexible outsourcing models that reduce costs and increase efficiency."
+                },
+                {
+                    "title": "Managed Services",
+                    "description": "With our Managed Services, we guarantee the smooth operation of your IT systems through proactive monitoring, maintenance, and fast support."
+                },
+                {
+                    "title": "Microsoft 365",
+                    "description": "Get the most out of Microsoft 365. We assist with licensing, implementation, and management of services like Teams, SharePoint, and Exchange."
+                },
+                {
+                    "title": "Hardware Procurement",
+                    "description": "We handle the entire lifecycle of your IT hardware – from consultation and procurement to setup and disposal."
+                },
+                {
+                    "title": "Modern Infrastructure",
+                    "description": "We create a future-proof IT infrastructure designed for scalability, security, and performance, whether on-premise, in the cloud, or hybrid."
+                },
+                {
+                    "title": "Modern Workplace",
+                    "description": "Design the workplace of the future. We implement solutions that enable secure and productive collaboration from anywhere."
+                },
+                {
+                    "title": "Telephony & VoIP",
+                    "description": "Modern communication solutions for your business. We offer flexible VoIP telephone systems that integrate seamlessly into your IT landscape."
+                },
+                {
+                    "title": "Web Design & Development",
+                    "description": "We design and develop modern, responsive websites that not only look great but are also optimized for performance and user experience."
+                }
+            ]
+        },
+        "proof": {
+            "title": "Don't Just Take Our Word For It",
+            "testimonials": [
+                {
+                    "quote": "Remotify completely transformed our IT operations. Their proactive approach to security and support has given us the peace of mind to focus on scaling our business. We're more efficient and secure than ever before.",
+                    "name": "Marcus Diedrich",
+                    "role": "CEO",
+                    "company": "Innovatech Solution",
+                    "image": "/images/avatars/men-32.jpg"
+                },
+                {
+                    "quote": "Switching to a cloud infrastructure was a big step for us. Solide.IT managed the entire process seamlessly and professionally. Our team's productivity has noticeably increased.",
+                    "name": "Emily Clark",
+                    "role": "Head of Operations",
+                    "company": "Creative Circle Inc.",
+                    "image": "/images/avatars/women-68.jpg"
+                },
+                {
+                    "quote": "Thanks to Solide.IT's strategic consulting, we've reduced our IT costs by 20% while massively increasing security. A partner that truly thinks ahead.",
+                    "name": "David Chen",
+                    "role": "CFO",
+                    "company": "NextGen Logistics",
+                    "image": "/images/avatars/men-46.jpg"
+                }
+            ]
+        },
+        "pricing": {
+            "title": "Flexible Plans That Grow With You",
+            "intro": "Choose the service level that perfectly fits your needs. All our plans can be customized to your requirements.",
+            "plans": [
+                {
+                    "name": "Solide.IT GUARD",
+                    "description": "Basic Security & Updates",
+                    "targetAudience": "Ideal for start-ups & small teams",
+                    "features": [
+                        "Regular system checks",
+                        "Important security updates",
+                        "Basic monitoring",
+                        "Email Support"
+                    ],
+                    "buttonText": "Request Guard",
+                    "highlighted": false,
+                    "requestSubject": "Inquiry about plan: GUARD"
+                },
+                {
+                    "name": "Solide.IT ADVANCE",
+                    "description": "Proactive Monitoring & Optimization",
+                    "targetAudience": "For growing companies with higher demands",
+                    "features": [
+                        "All GUARD services",
+                        "Proactive monitoring with alerting",
+                        "Performance optimization",
+                        "Prioritized phone & email support",
+                        "Monthly report"
+                    ],
+                    "buttonText": "Request Advance",
+                    "highlighted": true,
+                    "requestSubject": "Inquiry about plan: ADVANCE"
+                },
+                {
+                    "name": "Solide.IT PREMIUM",
+                    "description": "All-in-One Management & Consulting",
+                    "targetAudience": "For companies requiring maximum security & efficiency",
+                    "features": [
+                        "All ADVANCE services",
+                        "Strategic IT consulting",
+                        "Emergency support",
+                        "Dedicated contact person",
+                        "Backup Management",
+                        "Advanced security solutions"
+                    ],
+                    "buttonText": "Request Premium",
+                    "highlighted": false,
+                    "requestSubject": "Inquiry about plan: PREMIUM"
+                },
+                {
+                    "name": "Solide.IT CUSTOM",
+                    "description": "Tailor-Made IT Solutions",
+                    "targetAudience": "For unique requirements & special projects",
+                    "features": [
+                        "Everything in PREMIUM, plus:",
+                        "Custom project development",
+                        "Dedicated infrastructure",
+                        "Bespoke security protocols",
+                        "SLA guarantees"
+                    ],
+                    "buttonText": "Request Custom",
+                    "highlighted": false,
+                    "requestSubject": "Inquiry about plan: CUSTOM"
+                }
+            ],
+            "addon": {
+                "title": "Optional: Offsite & Immutable Backups",
+                "text": "Protect your critical data with our robust offsite backup solutions. Tailored plans available for enhanced data security and disaster recovery. Contact us for a custom quote."
+            },
+            "boxAddon": {
+                "title": "Optional: Solide.IT Box",
+                "text": "Get instant Mesh VPN (Netbird) and maintenance monitoring with our pre-configured hardware. Available for lease at just €10/month."
+            }
+        },
+        "hourlyBilling": {
+            "title": "Hourly Billing",
+            "text": "For short-term projects, special requirements, or emergency support, we offer flexible hourly billing. Contact us for a non-binding quote.",
+            "buttonText": "Request Hourly Rate",
+            "buttonSubject": "Inquiry: Hourly Billing"
+        },
+        "sreOnDemand": {
+            "title": "SRE Site Reliability Engineer On-Demand",
+            "slogan": "We've got your back, you relax.",
+            "price": "€80/hr plus VAT and night surcharge",
+            "buttonText": "Request SRE",
+            "buttonSubject": "Inquiry: SRE On-Demand"
+        },
+        "remoteSupport": {
+            "title": "Remote Support & Fernwartung",
+            "subtitle": "Need fast help? Connect with our technicians instantly via RustDesk.",
+            "downloadTitle": "Pre-configured Client (Windows)",
+            "downloadText": "Download our pre-configured Windows client. Simply run it – no installation or configuration required!",
+            "downloadBtn": "Download Client",
+            "manualTitle": "Manual Configuration (Other Platforms)",
+            "manualIntro": "For macOS, Linux, or mobile devices, download the standard RustDesk client and enter the following settings in Settings ➔ Network:",
+            "idServer": "ID Server",
+            "relayServer": "Relay Server",
+            "key": "Key",
+            "statusReady": "Click 'Apply'. The status indicator in the bottom left should turn green and show 'Ready'."
+        },
+        "cta": {
+            "title": "You focus on your business. We'll focus on your IT.",
+            "text": "Stop letting technology dictate your company's potential. Book your free, no-obligation IT-Readiness Analysis today. We'll give you a clear, actionable plan to improve your security and productivity within 30 minutes.",
+            "button": "Book Your Free IT-Readiness Analysis",
+            "buttonSubject": "Booking: Free IT-Readiness Analysis"
+        },
+        "footer": {
+            "slogan": "Your IT runs. You relax.",
+            "quickLinks": "Quick Links",
+            "careers": "Careers",
+            "legal": {
+                "notice": "Legal Notice",
+                "privacy": "Privacy Policy"
+            },
+            "contact": "Contact",
+            "email": "hello@solide.it.com",
+            "phone": "+49 7021 9722704",
+            "copyright": "© 2024 solide.it.com. Built for a remote world."
+        },
+        "modal": {
+            "title": "Book Your Free IT-Readiness Analysis",
+            "text": "Find a time that works for you. We'll give you a clear, actionable plan to improve your security and productivity. No obligation.",
+            "name": "Your Name",
+            "email": "Your Email",
+            "subject": "Subject",
+            "message": "What are your main IT concerns? (Optional)",
+            "button": "Book Analysis",
+            "successTitle": "Analysis Booked!",
+            "success": "Thank you! Your analysis session is scheduled. We've sent a confirmation and a calendar invite to your email.",
+            "errorTitle": "Something went wrong",
+            "error": "Your message could not be sent. Please try again later or contact us directly at hello@solide.it.com.",
+            "servicesInquiry": {
+                "title": "Desired services or information about these services *",
+                "options": [
+                    "Backup Solutions",
+                    "E-Mail Security",
+                    "Support & Outsourcing",
+                    "IT Security Check",
+                    "IT Security",
+                    "IT Rental & Services",
+                    "IT Modernization",
+                    "IT Update Service",
+                    "Home Office Solutions",
+                    "Site-to-Site Networking",
+                    "Microsoft 365",
+                    "MDM",
+                    "Data Center & Private Cloud",
+                    "Telecommunication",
+                    "Other"
+                ],
+                "note": "Multiple selections possible. Please feel free to check all topics for which we may contact you."
+            }
+        },
+        "jobsModal": {
+            "title": "Careers at Solide.IT",
+            "intro": "We're building the future of remote work infrastructure. If you are passionate about technology and want to make an impact, join our team!",
+            "position": "Site Reliability Engineer (Internship)",
+            "location": "Remote",
+            "type": "Internship / Part-Time",
+            "description": "As an SRE intern, you will help us build and maintain the scalable, reliable, and secure IT infrastructure that powers our clients. You'll work with modern cloud technologies, automation tools, and get hands-on experience in a fast-paced environment.",
+            "responsibilitiesTitle": "What you'll do:",
+            "responsibilities": [
+                "Assist in monitoring system performance and reliability.",
+                "Help automate infrastructure deployment and management processes.",
+                "Support the team in responding to and resolving incidents.",
+                "Contribute to documentation and internal knowledge base."
+            ],
+            "qualificationsTitle": "What you'll bring:",
+            "qualifications": [
+                "Currently enrolled in a Computer Science, Engineering, or related program.",
+                "Basic understanding of Linux/Unix environments.",
+                "Familiarity with at least one scripting language (e.g., Python, Bash).",
+                "A strong desire to learn about cloud computing (AWS/Azure), containerization (Docker), and DevOps principles.",
+                "Excellent problem-solving skills and attention to detail."
+            ],
+            "applyButton": "Apply Now",
+            "mailto": "mailto:careers@solide.it.com?subject=Application for SRE Internship"
+        },
+        "legalNoticeModal": {
+            "title": "Legal Notice",
+            "content": [
+                {
+                    "heading": "Information according to § 5 TMG",
+                    "text": "Solide.IT GmbH<br>Musterstraße 1<br>12345 Musterstadt<br>Germany"
+                },
+                {
+                    "heading": "Represented by:",
+                    "text": "Max Mustermann"
+                },
+                {
+                    "heading": "Contact:",
+                    "text": "Phone: +49 (0) 123 456789<br>Email: hello@solide.it.com"
+                },
+                {
+                    "heading": "Register entry:",
+                    "text": "Entry in the Handelsregister.<br>Registering court: Amtsgericht Musterstadt<br>Registration number: HRB 12345"
+                },
+                {
+                    "heading": "VAT ID:",
+                    "text": "Value added tax identification number according to §27a Value Added Tax Act: DE123456789"
+                },
+                {
+                    "heading": "Disclaimer",
+                    "text": "Accountability for content: The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents' accuracy, completeness or topicality. According to statutory provisions, we are furthermore responsible for our own content on these web pages. In this context, please note that we are accordingly not obliged to monitor merely the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity."
+                }
+            ]
+        },
+        "privacyPolicyModal": {
+            "title": "Privacy Policy",
+            "lastUpdated": "Last updated: July 26, 2024",
+            "content": [
+                {
+                    "heading": "1. An overview of data protection",
+                    "text": "The following gives a simple overview of what happens to your personal information when you visit our website. Personal information is any data with which you could be personally identified. Detailed information on the subject of data protection can be found in our privacy policy found below."
+                },
+                {
+                    "heading": "2. Data collection on our website",
+                    "text": "Who is responsible for the data collection on this website? The data collected on this website are processed by the website operator. The operator's contact details can be found in the website's required legal notice."
+                },
+                {
+                    "heading": "3. What rights do you have regarding your data?",
+                    "text": "You always have the right to request information about your stored data, its origin, its recipients, and the purpose of its collection at no charge. You also have the right to request that it be corrected, blocked, or deleted. You can contact us at any time using the address given in the legal notice if you have further questions about the issue of privacy and data protection."
+                }
+            ]
+        }
+    },
+    "de": {
+        "page": {
+            "title": "Solide.IT | Ihre IT läuft. Sie entspannen."
+        },
+        "nav": {
+            "services": "Services",
+            "plans": "Pläne",
+            "process": "Prozess",
+            "contact": "Kontakt",
+            "bookCall": "Analyse buchen",
+            "bookCallSubject": "Anfrage: Analyse buchen",
+            "remoteSupport": "Fernwartung"
+        },
+        "hero": {
+            "h1": "Hören Sie auf, sich um IT zu sorgen. Solide.IT steht Ihnen zur Seite.",
+            "h2": "Wir verwandeln Ihre IT-Ressourcen von einem täglichen Engpass in einen sicheren, leistungsstarken Motor für Ihr Team.",
+            "cta": "Kostenlose IT-Readiness-Analyse buchen",
+            "socialProof": "Vertraut von führenden Tech-Startups und Digitalagenturen",
+            "ctaSubject": "Anfrage: Kostenlose IT-Readiness-Analyse"
+        },
+        "problem": {
+            "title": "Kommt Ihnen das bekannt vor? Ihre IT bremst Sie aus.",
+            "cards": [
+                {
+                    "title": "Sicherheitslücken",
+                    "text": "Ihre Daten sind durch ungesicherte Heimnetzwerke und Privatgeräte gefährdet und machen Sie zu einem leichten Ziel für Cyberangriffe."
+                },
+                {
+                    "title": "Produktivitätsbremsen",
+                    "text": "Langsame Anwendungen, unübersichtliche Dateifregaben und ständige technische Probleme frustrieren Ihr Team und vernichten die Produktivität."
+                },
+                {
+                    "title": "Unvorhersehbare Kosten",
+                    "text": "Sie verschwenden Geld für die falschen Tools und unerwartete IT-Notfälle, anstatt in Wachstum zu investieren."
+                }
+            ]
+        },
+        "process": {
+            "title": "Ihr 3-Schritte-Plan zu erstklassigen IT-Ressourcen.",
+            "steps": [
+                {
+                    "step": "ENTDECKEN",
+                    "title": "1. Audit & Strategische Roadmap",
+                    "text": "Wir führen eine 360°-Analyse Ihrer aktuellen IT-Infrastruktur durch, identifizieren jedes Risiko und jede Chance und liefern einen konkreten Aktionsplan. Kein Gerede, nur Klarheit."
+                },
+                {
+                    "step": "IMPLEMENTIEREN",
+                    "title": "2. Absichern & Optimieren",
+                    "text": "Wir setzen den Plan um. Das bedeutet, wir migrieren Sie in die Cloud, implementieren moderne Zero-Trust-Sicherheit und richten Kollaborationstools ein, die Ihr Team lieben wird."
+                },
+                {
+                    "step": "OPTIMIEREN",
+                    "title": "3. Proaktives Management & Support",
+                    "text": "Ihre IT läuft jetzt auf Autopilot. Wir bieten kontinuierliche Überwachung, proaktive Wartung und schnellen Experten-Support, damit Ihre Systeme einwandfrei funktionieren."
+                }
+            ]
+        },
+        "services": {
+            "title": "Umfassende IT-Lösungen für Ihr Unternehmen",
+            "items": [
+                {
+                    "title": "Cloud Service Management",
+                    "description": "Wir übernehmen die vollständige Betreuung Ihrer Cloud-Dienste, von der Konfiguration bis zur laufenden Optimierung, damit Sie sich auf Ihr Kerngeschäft konzentrieren können."
+                },
+                {
+                    "title": "IT-Outsourcing",
+                    "description": "Lagern Sie Ihre gesamte IT oder Teilbereiche an uns aus. Wir bieten flexible Outsourcing-Modelle, die Kosten senken und die Effizienz steigern."
+                },
+                {
+                    "title": "Managed Services",
+                    "description": "Mit unseren Managed Services garantieren wir den reibungslosen Betrieb Ihrer IT-Systeme durch proaktive Überwachung, Wartung und schnellen Support."
+                },
+                {
+                    "title": "Microsoft 365",
+                    "description": "Holen Sie das Beste aus Microsoft 365 heraus. Wir unterstützen Sie bei der Lizenzierung, Implementierung und Verwaltung von Diensten wie Teams, SharePoint und Exchange."
+                },
+                {
+                    "title": "Hardware Beschaffung",
+                    "description": "Wir kümmern uns um den gesamten Lebenszyklus Ihrer IT-Hardware – von der Beratung und Beschaffung bis zur Einrichtung und Entsorgung."
+                },
+                {
+                    "title": "Moderne Infrastruktur",
+                    "description": "Wir schaffen eine zukunftsfähige IT-Infrastruktur, die auf Skalierbarkeit, Sicherheit und Performance ausgelegt ist, egal ob On-Premise, in der Cloud oder hybrid."
+                },
+                {
+                    "title": "Moderner Arbeitsplatz",
+                    "description": "Gestalten Sie den Arbeitsplatz der Zukunft. Wir implementieren Lösungen, die eine sichere und produktive Zusammenarbeit von überall ermöglichen."
+                },
+                {
+                    "title": "Telefonie & VoIP",
+                    "description": "Moderne Kommunikationslösungen für Ihr Unternehmen. Wir bieten flexible VoIP-Telefonanlagen, die sich nahtlos in Ihre IT-Landschaft integrieren."
+                },
+                {
+                    "title": "Webdesign & Entwicklung",
+                    "description": "Wir designen und entwickeln moderne, responsive Webseiten, die nicht nur gut aussehen, sondern auch für Performance und Nutzerfreundlichkeit optimiert sind."
+                }
+            ]
+        },
+        "proof": {
+            "title": "Was unsere Kunden sagen",
+            "testimonials": [
+                {
+                    "quote": "Remotify hat unsere IT-Abläufe vollständig transformiert. Ihr proaktiver Ansatz für Sicherheit und Support gibt uns die nötige Ruhe, um uns auf das Wachstum unseres Unternehmens zu konzentrieren. Wir sind effizienter und sicherer als je zuvor.",
+                    "name": "Markus Diedrich",
+                    "role": "Geschäftsführer",
+                    "company": "Digitalwandel GmbH",
+                    "image": "/images/avatars/men-32.jpg"
+                },
+                {
+                    "quote": "Die Umstellung auf eine Cloud-Infrastruktur war für uns ein großer Schritt. Solide.IT hat den gesamten Prozess nahtlos und professionell gemanagt. Unsere Team-Produktivität ist spürbar gestiegen.",
+                    "name": "Julia Becker",
+                    "role": "Head of Operations",
+                    "company": "Kreativzirkel AG",
+                    "image": "/images/avatars/women-68.jpg"
+                },
+                {
+                    "quote": "Dank der strategischen Beratung von Solide.IT haben wir unsere IT-Kosten um 20% gesenkt und gleichzeitig die Sicherheit massiv erhöht. Ein Partner, der wirklich mitdenkt.",
+                    "name": "Thomas Bauer",
+                    "role": "CFO",
+                    "company": "NextGen Logistics",
+                    "image": "/images/avatars/men-46.jpg"
+                }
+            ]
+        },
+        "pricing": {
+            "title": "Flexible Pläne, die mit Ihnen wachsen",
+            "intro": "Wählen Sie den Service-Level, der perfekt zu Ihren Anforderungen passt. Alle unsere Pläne können an Ihre Bedürfnisse angepasst werden.",
+            "plans": [
+                {
+                    "name": "Solide.IT GUARD",
+                    "description": "Grundlegende Sicherheit & Updates",
+                    "targetAudience": "Ideal für Start-ups & kleine Teams",
+                    "features": [
+                        "Regelmäßige Systemchecks",
+                        "Wichtige Sicherheitsupdates",
+                        "Basis-Monitoring",
+                        "E-Mail Support"
+                    ],
+                    "buttonText": "GUARD anfragen",
+                    "highlighted": false,
+                    "requestSubject": "Anfrage zum Plan: GUARD"
+                },
+                {
+                    "name": "Solide.IT ADVANCE",
+                    "description": "Proaktives Monitoring & Optimierung",
+                    "targetAudience": "Für wachsende Unternehmen mit höheren Ansprüchen",
+                    "features": [
+                        "Alle GUARD Leistungen",
+                        "Proaktives Monitoring mit Alarmierung",
+                        "Performance-Optimierung",
+                        "Priorisierter Telefon- & E-Mail Support",
+                        "Monatlicher Report"
+                    ],
+                    "buttonText": "ADVANCE anfragen",
+                    "highlighted": true,
+                    "requestSubject": "Anfrage zum Plan: ADVANCE"
+                },
+                {
+                    "name": "Solide.IT PREMIUM",
+                    "description": "Rundum-Sorglos-Management & Beratung",
+                    "targetAudience": "Für Unternehmen, die maximale Sicherheit & Effizienz benötigen",
+                    "features": [
+                        "Alle ADVANCE Leistungen",
+                        "Strategische IT-Beratung",
+                        "Notfall-Support",
+                        "Dedizierter Ansprechpartner",
+                        "Backup Management",
+                        "Erweiterte Sicherheitslösungen"
+                    ],
+                    "buttonText": "PREMIUM anfragen",
+                    "highlighted": false,
+                    "requestSubject": "Anfrage zum Plan: PREMIUM"
+                },
+                {
+                    "name": "Solide.IT INDIVIDUELL",
+                    "description": "Maßgeschneiderte IT-Lösungen",
+                    "targetAudience": "Für einzigartige Anforderungen & Sonderprojekte",
+                    "features": [
+                        "Alles aus PREMIUM, plus:",
+                        "Individuelle Projektentwicklung",
+                        "Dedizierte Infrastruktur",
+                        "Maßgeschneiderte Sicherheitsprotokolle",
+                        "SLA-Garantien"
+                    ],
+                    "buttonText": "INDIVIDUELL anfragen",
+                    "highlighted": false,
+                    "requestSubject": "Anfrage zum Plan: INDIVIDUELL"
+                }
+            ],
+            "addon": {
+                "title": "Optional: Offsite & unveränderliche Backups",
+                "text": "Schützen Sie Ihre kritischen Daten mit unseren robusten Offsite-Backup-Lösungen. Maßgeschneiderte Pläne für erhöhte Datensicherheit und Disaster Recovery verfügbar. Kontaktieren Sie uns für ein individuelles Angebot."
+            },
+            "boxAddon": {
+                "title": "Optional: Solide.IT Box",
+                "text": "Erhalten Sie sofortiges Mesh-VPN (Netbird) und Wartungsmonitoring mit unserer vorkonfigurierten Hardware. Optional für nur 10€ Leasing im Monat."
+            }
+        },
+        "hourlyBilling": {
+            "title": "Stundenbasierte Abrechnung",
+            "text": "Für kurzfristige Projekte, spezielle Anforderungen oder Notfall-Support bieten wir flexible Abrechnungen auf Stundenbasis. Kontaktieren Sie uns für ein unverbindliches Angebot.",
+            "buttonText": "Stundenbasis anfragen",
+            "buttonSubject": "Anfrage: Stundenbasierte Abrechnung"
+        },
+        "sreOnDemand": {
+            "title": "SRE Site Reliability Engineer On-demand",
+            "slogan": "Wir haben ihre Vertretung, Sie entspannen.",
+            "price": "80€/h plus MwSt und Nachtzuschlag",
+            "buttonText": "SRE anfragen",
+            "buttonSubject": "Anfrage: SRE On-Demand"
+        },
+        "remoteSupport": {
+            "title": "Remote Support & Fernwartung",
+            "subtitle": "Schnelle Hilfe benötigt? Verbinden Sie sich sofort mit unseren Technikern über RustDesk.",
+            "downloadTitle": "Vorkonfigurierter Client (Windows)",
+            "downloadText": "Laden Sie unseren vorkonfigurierten Windows-Client herunter. Einfach starten – keine Installation oder Einrichtung nötig!",
+            "downloadBtn": "Client herunterladen",
+            "manualTitle": "Manuelle Einrichtung (Andere Plattformen)",
+            "manualIntro": "Für macOS, Linux oder Mobilgeräte laden Sie den Standard-RustDesk-Client herunter und tragen in den Einstellungen ➔ Netzwerk folgende Daten ein:",
+            "idServer": "ID-Server",
+            "relayServer": "Relay-Server",
+            "key": "Key (Public Key)",
+            "statusReady": "Klicken Sie auf 'Anwenden'. Die Statusanzeige unten links sollte nach kurzer Zeit grün werden („Bereit“)."
+        },
+        "cta": {
+            "title": "Sie konzentrieren sich auf Ihr Business. Wir uns auf Ihre IT.",
+            "text": "Lassen Sie nicht länger zu, dass die Technologie das Potenzial Ihres Unternehmens bestimmt. Buchen Sie noch heute Ihre kostenlose, unverbindliche IT-Readiness-Analyse. Wir geben Ihnen innerhalb von 30 Minuten einen klaren, umsetzbaren Plan.",
+            "button": "Kostenlose IT-Readiness-Analyse buchen",
+            "buttonSubject": "Anfrage: Kostenlose IT-Readiness-Analyse"
+        },
+        "footer": {
+            "slogan": "Ihre IT läuft. Sie entspannen.",
+            "quickLinks": "Quick Links",
+            "careers": "Karriere",
+            "legal": {
+                "notice": "Impressum",
+                "privacy": "Datenschutz"
+            },
+            "contact": "Kontakt",
+            "email": "hello@solide.it.com",
+            "phone": "07021 9722704",
+            "copyright": "© 2024 solide.it.com. Gebaut für eine Welt ohne Grenzen."
+        },
+        "modal": {
+            "title": "Buchen Sie Ihre kostenlose IT-Readiness-Analyse",
+            "text": "Finden Sie eine passende Zeit. Wir geben Ihnen einen klaren, umsetzbaren Plan zur Verbesserung Ihrer Sicherheit und Produktivität. Unverbindlich.",
+            "name": "Ihr Name",
+            "email": "Ihre E-Mail",
+            "subject": "Betreff",
+            "message": "Was sind Ihre größten IT-Sorgen? (Optional)",
+            "button": "Analyse buchen",
+            "successTitle": "Anfrage versendet!",
+            "success": "Vielen Dank! Wir haben Ihre Anfrage erhalten und melden uns bei Ihnen.",
+            "errorTitle": "Etwas ist schiefgelaufen",
+            "error": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es später erneut oder kontaktieren Sie uns direkt unter hello@solide.it.com.",
+            "servicesInquiry": {
+                "title": "Gewünschte Leistungen bzw. Informationen zu diesen Leistungen *",
+                "options": [
+                    "Backuplösungen",
+                    "E-Mail-Sercurity",
+                    "Support & Outsourcing",
+                    "IT-Sicherheitscheck",
+                    "IT-Sicherheit",
+                    "IT-Miete & Services",
+                    "IT-Modernisierung",
+                    "IT-Updateservice",
+                    "Homeoffice-Lösungen",
+                    "Standortvernetzungen",
+                    "Microsoft 365",
+                    "MDM",
+                    "RZ und Private Cloud",
+                    "Telekommunikation",
+                    "Sonstiges"
+                ],
+                "note": "Mehrfachauswahl möglich. Haken Sie gerne alle Themen an, zu denen wir Sie kontaktieren dürfen."
+            }
+        },
+        "jobsModal": {
+            "title": "Karriere bei Solide.IT",
+            "intro": "Wir gestalten die Zukunft der Remote-Arbeitsinfrastruktur. Wenn Sie eine Leidenschaft für Technologie haben und etwas bewegen wollen, werden Sie Teil unseres Teams!",
+            "position": "Praktikum: Site Reliability Engineer (SRE)",
+            "location": "Remote",
+            "type": "Praktikum / Teilzeit",
+            "description": "Als SRE-Praktikant:in helfen Sie uns beim Aufbau und der Wartung der skalierbaren, zuverlässigen und sicheren IT-Infrastruktur für unsere Kunden. Sie arbeiten mit modernen Cloud-Technologien, Automatisierungstools und sammeln praktische Erfahrungen in einem dynamischen Umfeld.",
+            "responsibilitiesTitle": "Ihre Aufgaben:",
+            "responsibilities": [
+                "Unterstützung bei der Überwachung der Systemleistung und -zuverlässigkeit.",
+                "Mithilfe bei der Automatisierung von Infrastruktur-Deployment- und Management-Prozessen.",
+                "Unterstützung des Teams bei der Reaktion auf und Lösung von Störungen.",
+                "Mitarbeit an der Dokumentation und internen Wissensdatenbank."
+            ],
+            "qualificationsTitle": "Ihr Profil:",
+            "qualifications": [
+                "Immatrikuliert in einem Studiengang der Informatik, Ingenieurwissenschaften oder einem verwandten Fachbereich.",
+                "Grundlegendes Verständnis von Linux/Unix-Umgebungen.",
+                "Vertrautheit mit mindestens einer Skriptsprache (z. B. Python, Bash).",
+                "Starkes Interesse am Erlernen von Cloud Computing (AWS/Azure), Containerisierung (Docker) und DevOps-Prinzipien.",
+                "Ausgeprägte Problemlösungskompetenz und Detailgenauigkeit."
+            ],
+            "applyButton": "Jetzt bewerben",
+            "mailto": "mailto:karriere@solide.it.com?subject=Bewerbung als Praktikant SRE"
+        },
+        "legalNoticeModal": {
+            "title": "Impressum",
+            "content": [
+                {
+                    "heading": "Angaben gemäß § 5 TMG",
+                    "text": "Solide.IT GmbH<br>Musterstraße 1<br>12345 Musterstadt<br>Deutschland"
+                },
+                {
+                    "heading": "Vertreten durch:",
+                    "text": "Max Mustermann"
+                },
+                {
+                    "heading": "Kontakt:",
+                    "text": "Telefon: +49 (0) 123 456789<br>E-Mail: hello@solide.it.com"
+                },
+                {
+                    "heading": "Registereintrag:",
+                    "text": "Eintragung im Handelsregister.<br>Registergericht: Amtsgericht Musterstadt<br>Registernummer: HRB 12345"
+                },
+                {
+                    "heading": "Umsatzsteuer-ID:",
+                    "text": "Umsatzsteuer-Identifikationsnummer gemäß §27a UStG: DE123456789"
+                },
+                {
+                    "heading": "Haftungsausschluss",
+                    "text": "Haftung für Inhalte: Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen."
+                }
+            ]
+        },
+        "privacyPolicyModal": {
+            "title": "Datenschutzerklärung",
+            "lastUpdated": "Letzte Aktualisierung: 26. Juli 2024",
+            "content": [
+                {
+                    "heading": "1. Datenschutz auf einen Blick",
+                    "text": "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie unsere Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung."
+                },
+                {
+                    "heading": "2. Datenerfassung auf unserer Website",
+                    "text": "Wer ist verantwortlich für die Datenerfassung auf dieser Website? Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen."
+                },
+                {
+                    "heading": "3. Welche Rechte haben Sie bezüglich Ihrer Daten?",
+                    "text": "Sie haben jederzeit das Recht unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung, Sperrung oder Löschung dieser Daten zu verlangen. Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden."
+                }
+            ]
+        }
+    }
+}

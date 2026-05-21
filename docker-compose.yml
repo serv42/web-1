@@ -1,0 +1,14 @@
+services:
+  website:
+    build: .
+    container_name: solide-website
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8385:80"
+    volumes:
+      - ratelimit_data:/tmp/solide_ratelimit
+    env_file:
+      - .env
+
+volumes:
+  ratelimit_data:
